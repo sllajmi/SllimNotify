@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'sllajmi'
-description 'SlimNotify'
+description 'Simple Notification System'
 version '1.0'
 
 ui_page {
