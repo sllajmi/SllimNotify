@@ -1,5 +1,6 @@
 # SllimNotify
 Simple notification system for fivem. Preview: https://streamable.com/5zspdq
+                                               https://raw.githubusercontent.com/sllajmi/SllimNotify/main/SllimNotify.png
 
 # Client side
 
