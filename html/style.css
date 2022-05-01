@@ -1,0 +1,216 @@
+body {
+    margin-top: 30px;   /* Position of notification up and down */
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.toast {
+    width: 115px;      /* Position of notification left and right */
+    float: right;
+}
+
+
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #000000;
+    float: right;
+}
+
+
+
+.main {
+    margin: 10px 10px 10px 60px;
+    position: relative;
+}
+
+
+
+.main::before {
+    font-size: 35px;
+    top: calc(50% - 12px);
+    left: -50px;           
+    line-height: 22px;
+    position: absolute;
+}
+
+
+
+/* NORMAL NOTIFICATION */
+
+.normal_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    color: #6c757d;
+    text-shadow: 4px 4px 5px #5e5c5c;
+}
+
+.normal {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.normal_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #A6A6A6;
+    border-left: 4px solid #A6A6A6;
+    box-shadow: #5e5c5c 0px -40px 46px -28px inset;
+}
+
+
+
+/* POLICE NOTIFICATION */
+
+.police_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0f3";
+    color: #2f83ff;
+    text-shadow: 4px 4px 5px #073881;
+}
+
+.police {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.police_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #2f83ff;
+    border-left: 4px solid #2f83ff;
+    box-shadow: #073881 0px -40px 46px -28px inset;
+}
+
+
+
+/* AMBULANCE NOTIFICATION */
+
+.ambulance_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e05c";
+    color: #FD3A4A;
+    text-shadow: 4px 4px 5px #580910;
+}
+
+.ambulance {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.ambulance_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #FD3A4A;
+    border-left: 4px solid #FD3A4A;
+    box-shadow: #580910 0px -40px 46px -28px inset;
+}
+
+
+
+
+/* ERROR NOTIFICATION */
+
+.error_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #b60211;
+    text-shadow: 4px 4px 5px #580910;
+}
+
+.error {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.error_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #b60211;
+    border-left: 4px solid #b60211;
+    box-shadow: #580910 0px -40px 46px -28px inset;
+}
+
+
+
+/* SUCCESS NOTIFICATION */
+
+.success_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    color: #A7F432;
+    text-shadow: 4px 4px 5px #2c4900;
+}
+
+.success {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.success_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #A7F432;
+    border-left: 4px solid #A7F432;
+    box-shadow: #2c4900 0px -40px 46px -28px inset;
+}
+
+
+
+/* INFO NOTIFICATION */
+
+.info_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #4c00ff;
+    text-shadow: 4px 4px 5px #29015e;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.info_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #4c00ff;
+    border-left: 4px solid #4c00ff;
+    box-shadow: #29015e 0px -40px 46px -28px inset;
+}
+
+
+
+/* WARNING NOTIFICATION */
+
+.warning_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #FA5B3D;
+    text-shadow: 4px 4px 5px #6d352a;
+}
+
+.warning {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.warning_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #FA5B3D;
+    border-left: 4px solid #FA5B3D;
+    box-shadow: #6d352a 0px -40px 46px -28px inset;
+}
+
+
