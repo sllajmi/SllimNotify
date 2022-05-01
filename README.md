@@ -10,7 +10,7 @@ exports['SllimNotify']:showNotify("Title", "Message", Time, 'type')
 TriggerClientEvent('SllimNotify:showNotify', source, "Title", "Message", Time, 'type')
 
 
-Types:
+# Types:
 -success
 -error
 -info
@@ -18,3 +18,9 @@ Types:
 -normal
 -police
 -ambulance
+
+# Examples
+
+exports['SllimNotify']:showNotify("INFO", "This is a info notification", 5000, 'info')
+
+exports['SllimNotify']:showNotify("ERROR", "This is a error notification", 5000, 'error') 
